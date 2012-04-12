@@ -1,0 +1,10 @@
+debug: true
+moneytype: £
+boatsonwater:
+  enabled: true
+nofall:
+  enabled: true
+nohunger:
+  enabled: true
+lavapour:
+  enabled: true

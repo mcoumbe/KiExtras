@@ -1,0 +1,31 @@
+name: KiExtras
+main: uk.co.kicraft.extras.KiExtras
+version: 0.1
+
+depend: [Vault]
+
+commands:
+   kiextras:
+      description: Admin Command
+      usage: /<command>         
+        
+permissions:
+    kiextras.nofall.*:
+        description: Gives access to all nofall commands
+        default: false
+        children:
+            kiextras.nofall.nodamage: true
+    kiextras.nofall.nodamage:
+        description: stops fall damage
+        default: false        
+    kiextras.nohunger.*:
+        description: Gives access to all nohunger commands
+        default: false
+        children:
+            kiextras.nohunger.disablehunger: true
+    kiextras.nohunger.disablehunger:
+        description: stops hunger decreasing
+        default: false
+    kiextras.lavapour.allow:
+        description: allows players to pour lava
+        default: false

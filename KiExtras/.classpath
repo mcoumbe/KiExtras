@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/Essentials.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/EssentialsChat.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/EssentialsGroupManager.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/EssentialsProtect.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/EssentialsSpawn.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/iConomy.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/Vault.jar"/>
+	<classpathentry kind="lib" path="F:/Users/mike/workspace/mcJars/craftbukkit-1.2.5-R0.1-20120401.005747-4.jar" sourcepath="/MCStats"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
